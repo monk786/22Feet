@@ -1,0 +1,134 @@
+
+html,body{
+	height:100%;
+	margin:0px;
+	background-color: black;
+	margin-top: 10px;
+}
+
+
+.sidebr{
+	width: 30%;
+	height: 100%;
+	/* Used Height :100% to give the side bar the height of the window size*/
+	display: inline-block;
+	background-color: #ddd;
+	float: left;
+	clear: left
+
+}
+
+
+.content{
+	width: 68%;
+	text-align: center;
+	margin-right: 10px;
+	display: inline-block;
+	float: left;
+	
+	
+}
+
+
+
+.items{
+
+	vertical-align: center;
+	width: 33.33%;
+	float: left;
+	border: 1px solid #ffffff;
+	display: block;
+	background-color: #fff;
+	 box-sizing: border-box;
+	 /* using box sizing so that even if we use padding of the items that width of the content div is not hampered*/	
+}
+
+img{
+	margin-top: 20px;
+
+}
+.items:hover{
+	border-color: #f78828;
+
+}
+
+/* Item Discription */
+.itemdisc{
+	width: 100%;
+	height: 50px;
+	box-sizing:border-box;
+	/* using box sizing so that even if the content is more it does not hamper the other div alignment*/
+	text-align: center;
+}
+
+p{
+	margin: 0px;
+	
+    font-family: Helvetica,arial,san-serif;
+    font-weight: normal;
+    font-size: 15px;
+    color: #565656;
+    text-align: center;
+
+}
+
+.bn{
+		width: 90px;
+		height: 30px;
+	    border: 1px solid #da7532;
+    background: linear-gradient(to bottom,#f78828 0,#dd771f 100%);
+    border-radius: 4px;
+    outline: 0;
+    color: #f9f9f9;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-shadow: 0 0 1px rgba(0,0,0,0.33);
+    margin-bottom:10px;
+}
+
+
+
+.bn:hover {
+  background:#343A5C;
+  text-decoration: none;
+  z-index:100;
+	position: relative;
+	 -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+}
+
+
+@media only screen and (max-width: 1282px) and (min-width: 814px){
+	.sidebr{
+		width: 250px;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.items{
+		width: 50%;
+	}
+	
+	.content{
+		width: 100%;
+		margin: 0px;
+	}
+
+	.sidebr{
+		width: 100%;
+		height: 60px;
+	}
+	.logo{
+		margin-top: 0px;
+		width: 32.5px;
+		height: 54.5px;
+		margin-left: 5px;
+	}
+}
+
+@media only screen and (min-width: 1400px) {
+.items{
+	width: 25%;
+}
+
+}
