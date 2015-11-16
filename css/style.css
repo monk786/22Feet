@@ -14,7 +14,7 @@ html,body{
 	display: inline-block;
 	background-color: #ddd;
 	float: left;
-	clear: left
+	
 
 }
 
@@ -24,7 +24,7 @@ html,body{
 	text-align: center;
 	margin-right: 10px;
 	display: inline-block;
-	float: left;
+
 	
 	
 }
@@ -98,7 +98,7 @@ p{
 }
 
 
-@media only screen and (max-width: 1282px) and (min-width: 814px){
+@media only screen and (max-width: 1282px) and (min-width: 830px){
 	.sidebr{
 		width: 250px;
 	}
